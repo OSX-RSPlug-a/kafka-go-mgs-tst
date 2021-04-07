@@ -36,8 +36,6 @@ services:
       CONTROL_CENTER_REPLICATION_FACTOR: 1
       PORT: 9021
 
-    version: "3"
-
   app:
     build: . 
     ports:
